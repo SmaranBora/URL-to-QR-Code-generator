@@ -1,0 +1,42 @@
+/* Center the form horizontally and vertically within the container */
+body {
+    background-image: url('./background.jpg'); /* Replace with your image file path */
+    background-size: cover; /* Set the desired background size */
+}
+.heading{
+    padding-bottom: 175px;
+    padding-left: 87px;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 90vh; /* Make the container fill the viewport height */
+    /* background-image: url('./images/background.jpg'); */
+}
+
+/* Style the input to make it larger */
+.large-input {
+    width: 300px; /* Adjust the width as needed */
+    padding: 10px; /* Add padding for better visual appearance */
+    
+}
+
+/* Style the button (optional) */
+.mybutton {
+    padding: 10px 20px; /* Add padding to the button for better appearance */
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove button border */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.mybutton:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+
